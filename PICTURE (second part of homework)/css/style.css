@@ -1,0 +1,56 @@
+.wrapper
+{
+    margin: 0 auto;
+    width: 500px;
+    height: 541px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, td {
+    width: 360px;
+    height: 40px;
+    border: 1px solid #1e2112;
+}
+
+.yellow_big
+{
+    height: 125px;
+}
+
+.white_big
+{
+    height: 125px;
+}
+
+.red_c
+{
+   background-color: #ff6130;
+}
+
+.black_b
+{
+    background-color: #000000;
+}
+
+.yellow_c
+{
+    background-color: #ffe76c;
+}
+
+.blue_c
+{
+    background-color: #074683;
+}
+
+.last_row
+{
+    padding: 0 108px;
+}
+
+.second_of_bottom
+{
+    padding: 0 50px;   
+}
