@@ -23,33 +23,25 @@
 		</div>
 		<div class="form">
 			<form>
-				<div class="top-side-form">
-				<p>Cadastre-se</p>
-				</div>
+				<p class="top-side-form">Cadastre-se</p>
 				<div class="facebook-link">
 				<a href="https://www.facebook.com/"><p><span class="latter-f">f</span><span class="facebook-link-item"><span class="log_in_item">Log in</span> with <span class="facebook_item">Facebook </span>></span></p></a>
 				</div>
-				<div class="ou_form_item">
-					<p>OU</p>
-				</div>
+					<p class="ou_form_item">OU</p>
 				<div class="row-input">
-				<input class="form-input" id="f_name" type="text" value="First Name">
-				<input class="form-input" id="last_n" type="text" value="Last Name">
-				<input class="form-input" id="email" type="text" value="Email Address">
-				<input class="form-input" id="choose_p" type="text" value="Choose Password">
-				<input class="form-input" id="pass_conf" type="text" value="Password Confirm">
+				<input class="form-input" id="f_name" type="text" placeholder="First Name" required>
+				<input class="form-input" id="last_n" type="text" placeholder="Last Name" required>
+				<input class="form-input" id="email" type="url" placeholder="Email Address" required pattern="(http|https)://.+" />
+				<input class="form-input" id="choose_p" type="text" placeholder="Choose Password" required>
+				<input class="form-input" id="pass_conf" type="text" placeholder="Password Confirm" required>
 				</div>
 				<div class="checkbox-form">
 					<input id="send" type="checkbox">
 					<label for="send">Send me Youbike updates and tips</label>
 				</div>
-				<div class="account-button">
 					<button class="my_account" type="submit">Create my Account</button>
-				</div>
-				<div class="content">
-					<p>By clicking the button above, you agree to the Terms of Service
+					<p class="content">By clicking the button above, you agree to the Terms of Service
 					<br>Xiew our Privacy Policy.</p>
-				</div>
 			</form>
 		</div>
 	</div>

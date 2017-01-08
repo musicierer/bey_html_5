@@ -10,17 +10,21 @@ body
     src: url('fonts/Tahoma.ttf');
 }
 
+*:focus 
+{
+    outline: none;
+}
+
 .wrapper
 {
     position: relative;
     top: 34px;
-
-    width: 1214px;
-    height: 1030px;
-    margin: 0 auto;
+    height: 1050px;
+    
 
     background-image: url('../img/back.jpg');
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main-menu
@@ -78,6 +82,11 @@ body
 
     color: #fff;
     background-color: #4eabda;
+}
+
+.right-menu-item
+{
+    margin-right: 116px;
 }
 
 .left-menu-item li
@@ -142,19 +151,25 @@ body
     text-decoration: underline;
 }
 
-.form form
+.form
 {
-    position: absolute;
-
-    width: 560px;
-    height: 613px;
-    margin-top: 213px;
-    margin-left: 353px;
-
-    background-color: rgba(1, 1, 1, .6);
+    width: 1214px;
 }
 
-.form form .top-side-form p
+.form form
+{
+    position: relative;
+    margin: 0 auto;
+    height: 613px;
+    
+    top: 217px;
+
+    background-color: rgba(1, 1, 1, .6);
+    width: 560px;
+    left: 405px;
+}
+
+.form form .top-side-form
 {
     font-size: 24px;
 
@@ -234,9 +249,9 @@ body
     padding-right: 15px;
 }
 
-.ou_form_item p
+.ou_form_item
 {
-    font-size: 20px;
+    font-size: 14px;
 
     position: absolute;
 
@@ -248,10 +263,10 @@ body
     color: #999;
 }
 
-.ou_form_item p:before
+.ou_form_item:before
 {
     position: absolute;
-    top: 11px;
+    top: 6px;
     right: 37px;
 
     display: block;
@@ -265,10 +280,10 @@ body
     box-shadow: 0 -1px 0 1px #666;
 }
 
-.ou_form_item p:after
+.ou_form_item:after
 {
     position: absolute;
-    top: 11px;
+    top: 6px;
     left: 37px;
 
     display: block;
@@ -331,17 +346,13 @@ body
     bottom: 2px;
 }
 
-.account-button
-{
-    position: absolute;
-    bottom: 50px;
-    left: 210px;
-}
-
 .my_account
 {
     width: 140px;
     height: 31px;
+    position: relative;
+    left: 38%;
+    margin-top: 462px;
 
     cursor: pointer;
 
@@ -361,4 +372,9 @@ body
     text-align: center;
 
     color: #ccc;
+}
+
+.content
+{
+    font-size: 11px;
 }
